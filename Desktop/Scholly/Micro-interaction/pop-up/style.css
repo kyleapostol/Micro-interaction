@@ -1,0 +1,52 @@
+
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .sub-circle {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-bottom: 50%;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
+  .plus {
+    position:absolute;
+    text-align: center;
+    right: 7px;
+    top: 135px;
+    color: white;
+    font-size: 4em;
+    font-weight: lighter;
+    transition: 1s;
+    z-index: 2;
+  }
+  
+  .btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    background: none;
+    border:none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .plus:hover {
+    transform: rotate(180deg);
+    transform-origin: center center;
+    right: 7px;
+    top: 140px;
+  }
